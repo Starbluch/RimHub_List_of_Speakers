@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="script/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="script/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style.scss">
+    <title>Список спікерів</title>
+</head>
+<body>
+    <div class="container">
+        <main class="main">
+            <div class="main__navigation">
+                <span class="main__navigation__item "><a class="item__active" href="#">Головна</a></span>
+                <img src="assets/Icons/navigation.png" alt="">
+                <span class="main__navigation__item"><a href="#">Спікери</a></span>
+            </div> 
+
+            <div class="main__title__item_1">
+                <h1 class="main__title__h1__item_1">
+                    Спікери
+                </h1>
+            </div>
+            <div class="main__title__line__item_1">
+                <h1 class="main__title__h1__line__item_1">
+                    Спікери
+                    <hr class="main__title__hr__line__item_1">
+                </h1>
+            </div>
+
+            <section class="filter-section">
+                <form id="filterForm" action="/search" method="GET">
+              
+                    <div class="filter-group ">
+                        <label class="filter-group__rubrik filter__group__title">Рубрики</label>
+                        <div class="checkbox-group">
+                            <label><input type="checkbox" name="category" value="investment" checked> Інвестування</label>
+                            <label><input type="checkbox" name="category" value="economics"> Економіка професії. Як бути успішним</label>
+                            <label><input type="checkbox" name="category" value="residential-property"> Житлова нерухомість</label>
+                            <label><input type="checkbox" name="category" value="land"> Земля</label>
+                            <label><input type="checkbox" name="category" value="commercial-property"> Комерційна нерухомість</label>
+                            <label><input type="checkbox" name="category" value="communication"> Комунікація</label>
+                            <label><input type="checkbox" name="category" value="marketing"> Маркетинг</label>
+                            <label><input type="checkbox" name="category" value="novice-materials"> Матеріали для новачків</label>
+                            <label><input type="checkbox" name="category" value="new-buildings"> Новобудови</label>
+                            <label><input type="checkbox" name="category" value="rental-property"> Оренда нерухомості</label>
+                            <label><input type="checkbox" name="category" value="psychology"> Психологія</label>
+                            <label><input type="checkbox" name="category" value="buyer-work"> Робота з покупцем</label>
+                            <label><input type="checkbox" name="category" value="seller-work"> Робота з продавцем</label>
+                            <label><input type="checkbox" name="category" value="technology"> Технології</label>
+                            <label><input type="checkbox" name="category" value="agency-management"> Управління агенцією нерухомості</label>
+                            <label><input type="checkbox" name="category" value="legal-issues"> Юридичні питання</label>
+                        </div>
+                    </div>
+                    <div class="filter-group ">
+                        <label class="filter-group__rubrik filter__group__title">Теги</label>
+                        <div class="checkbox-group">
+                            <label><input type="checkbox" name="category" value="investment" checked> Новобудови</label>
+                            <label><input type="checkbox" name="category" value="economics"> Оренда нерухомовсті</label>
+                            <label><input type="checkbox" name="category" value="residential-property"> Психологія</label>
+                        </div>
+                    </div>
+
+                </form>
+              </section>
+
+              <section class="speakers__container">
+                <div class="speakers__content">
+                    <div class="speakers__content__it">
+                        <div class="speakers__img">
+                            <img src="assets/image/img-5.png" alt="speakers" class="image">
+                        </div>
+                        <div class="speakers__text">
+                            <p class="text__title">
+                                Антонов Максим
+                            </p>
+                            <p class="text__paragraph">
+                                Accusantium eveniet excepturi veniam dolorum. Consequuntur dolorem aliquid obcaecati aspernatur iusto. Perferendis iste explicabo minima quod mollitia doloremque similique, culpa aut earum error at deserunt dolorem soluta quasi voluptatibus maxime molestias a fugiat praesentium? Iusto, tempore? At accusantium similique temporibus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__content">
+                    <div class="speakers__content__it">
+                        <div class="speakers__img">
+                            <img src="assets/image/img-5.png" alt="speakers" class="image">
+                        </div>
+                        <div class="speakers__text">
+                            <p class="text__title">
+                                Антонов Максим
+                            </p>
+                            <p class="text__paragraph">
+                                Accusantium eveniet excepturi veniam dolorum. Consequuntur dolorem aliquid obcaecati aspernatur iusto. Perferendis iste explicabo minima quod mollitia doloremque similique, culpa aut earum error at deserunt dolorem soluta quasi voluptatibus maxime molestias a fugiat praesentium? Iusto, tempore? At accusantium similique temporibus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="speakers__content">
+                    <div class="speakers__content__it">
+                        <div class="speakers__img">
+                            <img src="assets/image/img-5.png" alt="speakers" class="image">
+                        </div>
+                        <div class="speakers__text">
+                            <p class="text__title">
+                                Антонов Максим
+                            </p>
+                            <p class="text__paragraph">
+                                Accusantium eveniet excepturi veniam dolorum. Consequuntur dolorem aliquid 
+                                obcaecati aspernatur iusto. Perferendis iste explicabo 
+                                minima quod mollitia doloremque similique, culpa aut earum error at deserunt 
+                                dolorem soluta quasi voluptatibus maxime molestias a fugiat praesentium? Iusto, 
+                                tempore? At accusantium similique temporibus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer__contact">
+                    <h1 class="footer__title">
+                        контакти
+                    </h1>
+                    <div class="contact">
+                        <div class="contact__item-1">
+                            <img src="assets/Icons/icon-5.png" alt="" class="img">
+                            <p class="item__text">
+                                Україна 
+                            </p>
+                            <p class="item__text">
+                                Умань вул. 
+                            </p>
+                            <p class="item__text">
+                                Незалежності, 37
+                            </p>
+                        </div>
+                        <div class="contact__item-2">
+                            <img src="assets/Icons/icon-6.png" alt="" class="img">
+                            <p class="item__text ">
+                                 +38(238) 237-98-73
+                            </p>
+                        </div>
+                        <div class="contact__item-3">
+                            <img src="assets/Icons/icon-7.png" alt="" class="img">
+                            <p class="item__text">
+                                 manager@rimhub.com.ua
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer__nav">
+                    <h1 class="footer__title">
+                        навігація
+                    </h1>
+                    <ul class="navbar">
+                        <a href="#" class="nav__item">
+                            <li class="navbar__item">
+                                Про нас
+                            </li>
+                        </a>
+                        <a href="#" class="nav__item">
+                            <li class="navbar__item">
+                                Курси
+                            </li>
+                        </a>
+                        <a href="#" class="nav__item">
+                            <li class="navbar__item">
+                                Контакти
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="footer__social">
+                    <div class="social__content">
+                        <h1 class="footer__title footer__title__soc">
+                            залишайтесь на зв'язку
+                        </h1>
+                        <div class="social__image">
+                            <a href="#" class="image__item">
+                                <img src="assets/Icons/soc_icons-1.png" alt="social" class="img">
+                            </a>
+                            <a href="#" class="image__item">
+                                <img src="assets/Icons/soc_icons-2.png" alt="social" class="img">
+                            </a>
+                            <a href="#" class="image__item">
+                                <img src="assets/Icons/soc_icons-3.png" alt="social" class="img">
+                            </a>
+                            <a href="#" class="image__item">
+                                <img src="assets/Icons/soc_icons-4.png" alt="social" class="img">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="logo">
+                        <img src="assets/image/logo.png" alt="logo" class="img">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script/slick/slick.min.js"></script>
+</body>
+</html>
