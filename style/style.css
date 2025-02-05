@@ -356,6 +356,8 @@ p, a {
 }
 @media (max-width: 450px) {
   .filter-section .checkbox-group label {
+    display: flex;
+    align-items: center;
     font-size: 10px;
   }
 }
@@ -413,6 +415,7 @@ label {
 input[type=checkbox] {
   margin-right: 8px;
   border-color: 1px solid black;
+  height: 100%;
 }
 
 .checkbox-group label {
@@ -422,6 +425,11 @@ input[type=checkbox] {
   margin-bottom: 10px;
 }
 
+@media (max-width: 450px) {
+  input[type=checkbox] {
+    margin: 3px 4px 5px 4px;
+  }
+}
 .speakers__container {
   display: grid;
   width: 95%;
